@@ -19,7 +19,6 @@ from pyecharts.commons.utils import JsCode
 from PIL import Image
 from io import BytesIO
 # import io
-import pygame
 # import time
 # import threading
 # import wave
@@ -31,7 +30,6 @@ music_playing = False
 
 
 def main():
-    pygame.init()
     st.set_page_config(page_title="樱花樱花想见你", page_icon=":rainbow:", layout="wide", initial_sidebar_state="auto")
     st.title('樱花樱花想见你:heart:')
 
